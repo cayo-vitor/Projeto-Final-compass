@@ -112,3 +112,21 @@ A CyberCloud protege seus dados e aplicações, reduzindo riscos e vulnerabilida
 | **Monitoramento (CloudWatch Logs & Metrics)** | $25 | $75 | $150 | $300 |
 | **Backup (AWS Backup para RDS e EBS)** | $20 | $60 | $120 | $240 |
 | **Total** | **$354** | **$1,062** | **$2,124** | **$4,248** |
+---
+## 🚀 **Tabela de Custos – Etapa 2 (Arquitetura Modernizada com Kubernetes - EKS)**
+
+| Serviço | Custo Mensal | Custo Trimestral | Custo Semestral | Custo Anual |
+|---------|-------------|------------------|-----------------|-------------|
+| **EKS Cluster (Controle Plane)** | $72 | $216 | $432 | $864 |
+| **EKS Worker Nodes (3x t3.large)** | $111 | $333 | $666 | $1,332 |
+| **Elastic Load Balancer (ALB para EKS)** | $20 | $60 | $120 | $240 |
+| **RDS MySQL (db.t3.medium - Multi-AZ)** | $120 | $360 | $720 | $1,440 |
+| **EFS (50GB armazenamento)** | $15 | $45 | $90 | $180 |
+| **S3 (100GB armazenamento + transferência)** | $5 | $15 | $30 | $60 |
+| **CloudFront (1TB tráfego)** | $15 | $45 | $90 | $180 |
+| **VPC (NAT Gateway + tráfego de saída)** | $35 | $105 | $210 | $420 |
+| **IAM e Segurança (WAF, GuardDuty, CloudTrail)** | $30 | $90 | $180 | $360 |
+| **Monitoramento (CloudWatch Logs & Metrics)** | $25 | $75 | $150 | $300 |
+| **Backup (AWS Backup para RDS e EBS)** | $20 | $60 | $120 | $240 |
+| **Total** | **$468** | **$1,404** | **$2,808** | **$5,616** |
+
