@@ -56,7 +56,7 @@ Com uma abordagem estruturada, garantimos uma migração segura e sem impactos n
 ✔ Monitoramento proativo (CloudWatch) – Detecção e correção de falhas em tempo real.
 
 🎯 Resultados: Infraestrutura mais estável, menor latência e melhor experiência do usuário.
----
+
 # 📌 **Tabela de Custos – Etapa 1 (Infraestrutura Básica na AWS)**
 
 | Serviço | Custo Mensal | Custo Trimestral | Custo Semestral | Custo Anual |
