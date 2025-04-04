@@ -41,8 +41,8 @@ Com uma abordagem estruturada, garantimos uma migração segura e sem impactos n
 
 # 📋 Nossa Estratégias: Transformação em Duas Fases
 
-🔹 Fase 1: Migração para AWS (Lift-and-Shift)
-
+🔹 **Fase 1: Migração para AWS (Lift-and-Shift)**
+---
 📌 Objetivo: Transferir sua infraestrutura para a AWS com mínimo impacto operacional.
 
 📌 Principais Implementações:
@@ -56,10 +56,22 @@ Com uma abordagem estruturada, garantimos uma migração segura e sem impactos n
 ✔ Monitoramento proativo (CloudWatch) – Detecção e correção de falhas em tempo real.
 
 🎯 Resultados: Infraestrutura mais estável, menor latência e melhor experiência do usuário.
+---
+# 📌 **Tabela de Custos – Etapa 1 (Infraestrutura Básica na AWS)**
 
-
-
-
+| Serviço | Custo Mensal | Custo Trimestral | Custo Semestral | Custo Anual |
+|---------|-------------|------------------|-----------------|-------------|
+| **EC2 (t3.large - 2 vCPU, 8GB RAM) - 2 instâncias** | $74 | $222 | $444 | $888 |
+| **Elastic Load Balancer (ALB)** | $20 | $60 | $120 | $240 |
+| **RDS MySQL (db.t3.medium - Multi-AZ)** | $120 | $360 | $720 | $1,440 |
+| **EBS (100GB SSD gp3)** | $10 | $30 | $60 | $120 |
+| **S3 (100GB armazenamento + transferência)** | $5 | $15 | $30 | $60 |
+| **CloudFront (1TB tráfego)** | $15 | $45 | $90 | $180 |
+| **VPC (NAT Gateway + tráfego de saída)** | $35 | $105 | $210 | $420 |
+| **IAM e Segurança (WAF, GuardDuty, CloudTrail)** | $30 | $90 | $180 | $360 |
+| **Monitoramento (CloudWatch Logs & Metrics)** | $25 | $75 | $150 | $300 |
+| **Backup (AWS Backup para RDS e EBS)** | $20 | $60 | $120 | $240 |
+| **Total** | **$354** | **$1,062** | **$2,124** | **$4,248** |
 ---
 
 
@@ -93,25 +105,6 @@ A CyberCloud protege seus dados e aplicações, reduzindo riscos e vulnerabilida
 ✅ Monitoramento 24/7 com AWS GuardDuty – Identificação e mitigação de ameaças.
 
 ✅ Firewall e criptografia avançada – Segurança reforçada contra ataques cibernéticos.
-
-
-
-
-# 📌 **Tabela de Custos – Etapa 1 (Infraestrutura Básica na AWS)**
-
-| Serviço | Custo Mensal | Custo Trimestral | Custo Semestral | Custo Anual |
-|---------|-------------|------------------|-----------------|-------------|
-| **EC2 (t3.large - 2 vCPU, 8GB RAM) - 2 instâncias** | $74 | $222 | $444 | $888 |
-| **Elastic Load Balancer (ALB)** | $20 | $60 | $120 | $240 |
-| **RDS MySQL (db.t3.medium - Multi-AZ)** | $120 | $360 | $720 | $1,440 |
-| **EBS (100GB SSD gp3)** | $10 | $30 | $60 | $120 |
-| **S3 (100GB armazenamento + transferência)** | $5 | $15 | $30 | $60 |
-| **CloudFront (1TB tráfego)** | $15 | $45 | $90 | $180 |
-| **VPC (NAT Gateway + tráfego de saída)** | $35 | $105 | $210 | $420 |
-| **IAM e Segurança (WAF, GuardDuty, CloudTrail)** | $30 | $90 | $180 | $360 |
-| **Monitoramento (CloudWatch Logs & Metrics)** | $25 | $75 | $150 | $300 |
-| **Backup (AWS Backup para RDS e EBS)** | $20 | $60 | $120 | $240 |
-| **Total** | **$354** | **$1,062** | **$2,124** | **$4,248** |
 ---
 ## 🚀 **Tabela de Custos – Etapa 2 (Arquitetura Modernizada com Kubernetes - EKS)**
 
