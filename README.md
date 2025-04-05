@@ -25,9 +25,9 @@
 ---
 
 
-Na era digital, empresas que não modernizam sua infraestrutura enfrentam desafios como baixo desempenho, altos custos operacionais e riscos de segurança. A CyberCloud oferece uma solução completa para empresas que buscam alta disponibilidade, escalabilidade e redução de custos, modernizando suas operações na AWS com segurança e eficiência.
+Na era digital, empresas que não modernizam sua infraestrutura enfrentam desafios como baixo desempenho, altos custos operacionais e riscos de segurança. A TI SOLUÇÕES INCRIVÉIS oferece uma solução completa para empresas que buscam alta disponibilidade, escalabilidade e redução de custos, modernizando suas operações na AWS com segurança e eficiência.
 
-🔍 O que a CyberCloud entrega?
+🔍 O que a TI SOLUÇÕES INCRIVÉIS entrega?
 - ✅ Infraestrutura escalável para lidar com picos de demanda sem falhas.
 - ✅ Redução de custos com otimização de recursos e automação.
 - ✅ Alta disponibilidade com arquitetura resiliente e redundante.
@@ -72,9 +72,29 @@ Com uma abordagem estruturada, garantimos uma migração segura e sem impactos n
 | **Backup (AWS Backup para RDS e EBS)** | $20 | $60 | $120 | $240 |
 | **Total** | **$354** | **$1,062** | **$2,124** | **$4,248** |
 ---
+## 🛠️ Tecnologias Utilizadas
 
+| Serviço/Ferramenta            | Finalidade                                                    |
+|-------------------------------|----------------------------------------------------------------|
+| **Amazon EC2**                | Hospedagem de aplicações legadas (frontend/backend)            |
+| **Amazon RDS (MySQL)**        | Banco de dados relacional gerenciado com alta disponibilidade  |
+| **Amazon EBS**                | Volume de armazenamento para EC2                               |
+| **Elastic Load Balancer**     | Balanceamento de carga entre instâncias                        |
+| **Amazon S3**                 | Armazenamento de arquivos e dados estáticos                    |
+| **Amazon EFS**                | Sistema de arquivos compartilhado entre instâncias             |
+| **Amazon CloudWatch**         | Monitoramento de métricas, logs e alarmes                      |
+| **AWS Backup**                | Backup automatizado para RDS e EBS                             |
+| **IAM (Identity & Access)**   | Gerenciamento de permissões e identidade                       |
+| **AWS WAF**                   | Firewall de aplicação web para proteção contra ameaças         |
+| **AWS GuardDuty**            | Detecção de ameaças                                            |
+| **AWS CloudTrail**            | Registro e auditoria de ações realizadas na conta AWS          |
+---
 
-🔹 Fase 2: Modernização com Kubernetes e Serviços Gerenciados
+![diagramaetapa1 drawio](https://github.com/user-attachments/assets/544b7be0-2880-4918-ab6d-ceacde571c35)
+---
+
+🔹 **Fase 2: Modernização com Kubernetes e Serviços Gerenciados**
+---
 
 📌 Objetivo: Transformar a infraestrutura migrada em uma solução altamente escalável e automatizada.
 
@@ -104,6 +124,7 @@ A CyberCloud protege seus dados e aplicações, reduzindo riscos e vulnerabilida
 ✅ Monitoramento 24/7 com AWS GuardDuty – Identificação e mitigação de ameaças.
 
 ✅ Firewall e criptografia avançada – Segurança reforçada contra ataques cibernéticos.
+
 ---
 ## 🚀 **Tabela de Custos – Etapa 2 (Arquitetura Modernizada com Kubernetes - EKS)**
 
@@ -121,11 +142,24 @@ A CyberCloud protege seus dados e aplicações, reduzindo riscos e vulnerabilida
 | **Monitoramento (CloudWatch Logs & Metrics)** | $25 | $75 | $150 | $300 |
 | **Backup (AWS Backup para RDS e EBS)** | $20 | $60 | $120 | $240 |
 | **Total** | **$468** | **$1,404** | **$2,808** | **$5,616** |
+---
+## 🛠️ Tecnologias Utilizadas
 
-
-
+| Serviço/Ferramenta          | Finalidade                                                              |
+|-----------------------------|-------------------------------------------------------------------------|
+|**Amazon EKS**              | Orquestração de containers com Kubernetes                              |
+|**Amazon EC2 (Worker Nodes)**| Hospedagem dos pods Kubernetes (backend, frontend, etc.)               |
+|**RDS (MySQL Multi-AZ)**    | Banco de dados altamente disponível para aplicações modernizadas       |
+|**Amazon EFS**              | Compartilhamento de arquivos entre pods                                |
+|**Amazon S3 + CloudFront**  | Armazenamento e distribuição de assets estáticos                       |
+|**Nginx Ingress Controller**| Roteamento inteligente de requisições dentro do cluster Kubernetes      |
+|**AWS IAM, WAF, GuardDuty** | Segurança, autenticação e proteção contra ameaças                      |
+|**AWS CloudTrail + CloudWatch** | Monitoramento, logging e auditoria                                 |
+|**AWS Backup**              | Backup automatizado dos recursos principais
 ---
 
+![diagrama-final drawio (2)](https://github.com/user-attachments/assets/50e09890-dbb2-4afa-b9dc-1176d38ad0ea)
+---
 
 # Benefícios para Seu Negócio
 
@@ -139,21 +173,3 @@ A CyberCloud protege seus dados e aplicações, reduzindo riscos e vulnerabilida
 
 
 ---
-
-
-# 🛠️ Tecnologias Utilizadas
-
-🔹 AWS EC2, S3, RDS, CloudFront, IAM
-
-🔹 EKS (Kubernetes Gerenciado)
-
-🔹 Terraform e CloudFormation (Infraestrutura como Código)
-
-🔹 Monitoramento com CloudWatch e GuardDuty
-
-🔹 CDN para entrega de conteúdo global
-
-
-
-
-
