@@ -94,7 +94,7 @@ Com uma abordagem estruturada, garantimos uma migração segura e sem impactos n
 
 ---
 
-🔐 Segurança e Confiabilidade
+# 🔐 Segurança e Confiabilidade
 
 A CyberCloud protege seus dados e aplicações, reduzindo riscos e vulnerabilidades com:
 
@@ -122,4 +122,39 @@ A CyberCloud protege seus dados e aplicações, reduzindo riscos e vulnerabilida
 | **Monitoramento (CloudWatch Logs & Metrics)** | $25 | $75 | $150 | $300 |
 | **Backup (AWS Backup para RDS e EBS)** | $20 | $60 | $120 | $240 |
 | **Total** | **$468** | **$1,404** | **$2,808** | **$5,616** |
+
+
+
+---
+
+
+# Benefícios para Seu Negócio
+
+📌 99,99% de disponibilidade – Eliminação de quedas inesperadas.
+
+📌 Performance 5x mais rápida – Melhor experiência para usuários.
+
+📌 Redução de 40% nos custos operacionais – Infraestrutura otimizada.
+
+📌 Escalabilidade sob demanda – Expansão sem complicações.
+
+
+---
+
+
+# 🛠️ Tecnologias Utilizadas
+
+🔹 AWS EC2, S3, RDS, CloudFront, IAM
+
+🔹 EKS (Kubernetes Gerenciado)
+
+🔹 Terraform e CloudFormation (Infraestrutura como Código)
+
+🔹 Monitoramento com CloudWatch e GuardDuty
+
+🔹 CDN para entrega de conteúdo global
+
+
+
+
 
